@@ -1,252 +1,351 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Эсхата Лизинг</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/libs.min.css"> -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-<header class="header"> 
-    <div class="container">    
-   <div class="header__top">
-    
-       <a class="logo" href="#" >
-        <img src="images/logo.png" alt="logo" class="logo__img">
-       </a>
-       <nav class="menu">
-           <ul class="menu__list">
-               <li class="menu__list-item"> <a href="#" class="menu__list-link">Частным лицам</a> </li>
-               <li class="menu__list-item"> <a href="#" class="menu__list-link">Корпоративным клиентам</a> </li>
-               <li class="menu__list-item"> <a href="#" class="menu__list-link">Партнёрам</a> </li>
-           </ul>
-       </nav>
-       <div class="header__search">
-           <img src="images/search.png" alt="">
-       </div>
-       <div class="header__lang">
-           <ul class="header__lang--list">
-             <li class="header__lang--item"> <a href="" class="header__lang--link">RU</a> </li>
-             <li class="header__lang--item"> <a href="" class="header__lang--link">EN</a> </li>               
-           </ul>
-       </div>
-   </div>
-</div> 
-   <nav class="header__bottom">
-    <div class="container">
-      <ul class="menu__bottom">
-          <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">О нас</a> </li>
-          <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Новости</a> </li>
-          <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Полезное</a> </li>
-          <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Контакт</a> </li>
-          <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Ещё</a> </li>
-      </ul>
-    </div>
-   </nav> 
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
 
-<div class="header__slider">
-<div class="header__slider-item" style="background-image: url(images/slider-bg.png);">
-<div class="header__slider-content">
-    <div class="container">
- <div class="header__slider-info">
-    <h3 class="header__slider-title">Здоровые сотрудники - 
-        основа любого
-        бизнеса</h3>
-        <div class="header__slider-desc">
-            Лучший способ удержать и привлечь кадры
-          </div>
-          <a class="header__slider-btn" href="#">Подробнее</a> 
-</div>
-</div>  
-</div>
-</div>   
-</div>
-</header>
-<section class="insurance">
-<div class="container">    
-
-<h2 class="insurance__title">Страховые услуги</h2>
-<div class="insurance__inner">
-
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Мобильный банкинг</h3>
-            <p class="insurance__item-desc">Все сервисы Банк Эсхаты
-                под рукой                
-                </p>
-            <a class="insurance__item-btn" href="#">Подробнее</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-1.png" alt="">
-        </div>
-    </div>
-
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Банковские карты</h3>
-            <p class="insurance__item-desc">Локальная карта с кэшбэком до 30% и ежемесячным процентом на остаток</p>
-            <a class="insurance__item-btn" href="#">Оформить карту</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-2.png" alt="">
-        </div>
-    </div>
-
-</div>
-<div class="insurance__inner">
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Товары в кредит</h3>
-            <p class="insurance__item-desc">Бытовая техника и другие покупки в магазинах наших партнеров</p>
-            <a class="insurance__item-btn" href="#">Оформить кредит</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-3.png" alt="">
-        </div>
-    </div>
-
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Кредит на дом</h3>
-            <p class="insurance__item-desc">Низкие проценты и карта
-                в подарок</p>
-            <a class="insurance__item-btn" href="#">Оформить кредит</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-4.png" alt="">
-        </div>
-    </div>
-
-</div>
-<div class="insurance__inner">
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Ипотека</h3>
-            <p class="insurance__item-desc">Наслаждайтесь красивой и комфортной жизнью!</p>
-            <a class="insurance__item-btn" href="#">Оформить кредит</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-5.png" alt="">
-        </div>
-    </div>
-
-    <div class="insurance__item">
-        <div class="insurance__item-box">
-            <h3 class="insurance__item-title">Депозит</h3>
-            <p class="insurance__item-desc">Сберегательный счёт в виде копилки, нет ограничений по снятиям 
-            </p>
-            <a class="insurance__item-btn" href="#">Оформить кредит</a>
-        </div>
-        <div class="insurance__img">
-            <img src="images/item-6.png" alt="">
-        </div>
-    </div>
-</div>
-</div>
-</section>
-<section class="news">
-    <div class="container">
-        <h2 class="news__title">Новости</h2>
-        <div class="news__inner">
-            <div class="news__item">
-                <div class="news__box">
-                    <h3 class="news__box-title">Банка Эсхата открыты
-                        для своих клиентов</h3>
-                    <p class="news__box-desc">20 Центров банковского обслуживания
-                        Банка Эсхата открыты для своих клиентов</p>
-                    <a href="" class="news__box-link">Подробнее...</a>
+                <a class="logo" href="#">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Частным лицам</a> </li>
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Корпоративным клиентам</a>
+                        </li>
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Партнёрам</a> </li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <img src="images/search.png" alt="">
                 </div>
-                <div class="news__img">
-                    <img src="images/news-1.svg" alt="">
+                <div class="header__lang">
+                    <ul class="header__lang--list">
+                        <li class="header__lang--item"> <a href="" class="header__lang--link">RU</a> </li>
+                        <li class="header__lang--item"> <a href="" class="header__lang--link">EN</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="header__bottom">
+            <div class="container">
+                <ul class="menu__bottom">
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">О нас</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Новости</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Полезное</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Контакт</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Ещё</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header__slider">
+            <div class="header__slider-item" style="background-image: url(images/slider-bg.png);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Здоровые сотрудники -
+                                основа любого
+                                бизнеса</h3>
+                            <div class="header__slider-desc">
+                                Лучший способ удержать и привлечь кадры
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>                       
+                    </div>
                 </div>
             </div>
 
-            <div class="news__item">
-                <div class="news__box">
-                    <h3 class="news__box-title">Банк Эсхата закупил
-                        спецодежду для врачей</h3>
-                    <p class="news__box-desc">«Банк Эсхата» закупил спецодежду
-                        для врачей на 100 000 сомони</p>
-                    <a href="" class="news__box-link">Подробнее...</a>
+            <div class="header__slider-item" style="background-image: url(images/slider-bg2.png);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование от несчастных случаев</h3>
+                            <div class="header__slider-desc">
+                                Страховка для всей семьи
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="news__img">
-                    <img src="images/news-2.svg" alt="">
+            </div>            
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg3.jpg);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Медецинское страхование</h3>
+                            <div class="header__slider-desc">
+                                Программа страхования медицинских расходов
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="header__slider-item" style="background-image: url(images/slider-bg4.png);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование путешествующих</h3>
+                            <div class="header__slider-desc">
+                                От чего защищает страхование путешествий?
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg5.jpg);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование домов и квартир</h3>
+                            <div class="header__slider-desc">
+                                Взлом и кража, пожар или затопление – <br>
+                                обеспечьте Ваше жилье страхованием
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg6.png);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование ответственности</h3>
+                            <div class="header__slider-desc">
+                                Защита от финансовых потерь при <br>
+
+                                   предъявлении претензий третьих лиц
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg7.jpg);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Авто страхование</h3>
+                            <div class="header__slider-desc">
+                                Защита Вас и вашего автомобиля
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <button class="slick-prev slick-arrow" type="button" >                           
+            </button>
+            <button class="slick-next slick-arrow" type="button" >                          
+           </button>
+        </div>
+    </header>
+    <section class="insurance">
+        <h2 class="insurance__title">Страховые услуги</h2>
+        <div class="container">            
+           
+              <div class="insurance__inner">
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Мобильный банкинг</h3>
+                        <p class="insurance__item-desc">Все сервисы Банк Эсхаты
+                            под рукой
+                        </p>
+                        <a class="insurance__item-btn" href="#">Подробнее</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Банковские карты</h3>
+                        <p class="insurance__item-desc">Локальная карта с кэшбэком до 30% и ежемесячным процентом на
+                            остаток</p>
+                        <a class="insurance__item-btn" href="#">Оформить карту</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-2.png" alt="">
+                    </div>
+                </div>            
+
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Товары в кредит</h3>
+                        <p class="insurance__item-desc">Бытовая техника и другие покупки в магазинах наших партнеров</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Кредит на дом</h3>
+                        <p class="insurance__item-desc">Низкие проценты и карта
+                            в подарок</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-4.png" alt="">
+                    </div>
+                </div>            
+            
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Ипотека</h3>
+                        <p class="insurance__item-desc">Наслаждайтесь красивой и комфортной жизнью!</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-5.png" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Депозит</h3>
+                        <p class="insurance__item-desc">Сберегательный счёт в виде копилки, нет ограничений по снятиям
+                        </p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-6.png" alt="">
+                    </div>
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
-<section class="partners">
-    <div class="container">
-        <h2 class="partners__title">Новости</h2>
-        <img src="images/partners.png" alt="">
-    </div>
-</section>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title">Новости</h2>
+            <div class="news__inner">
+                <div class="news__item">
+                    <div class="news__box">
+                        <h3 class="news__box-title">Банка Эсхата открыты
+                            для своих клиентов</h3>
+                        <p class="news__box-desc">20 Центров банковского обслуживания
+                            Банка Эсхата открыты для своих клиентов</p>
+                        <a href="" class="news__box-link">Подробнее...</a>
+                    </div>
+                    <div class="news__img">
+                        <img src="images/news-1.svg" alt="">
+                    </div>
+                </div>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer__top">
-            <div class="footer__col">
-                <h3 class="footer__col-title">КТО МЫ</h3>
-                <ul class="footer__list">
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">О нас</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Руководство</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Документация</a> </li>                    
-                </ul>
-            </div>
+                <div class="news__item">
+                    <div class="news__box">
+                        <h3 class="news__box-title">Банк Эсхата закупил
+                            спецодежду для врачей</h3>
+                        <p class="news__box-desc">«Банк Эсхата» закупил спецодежду
+                            для врачей на 100 000 сомони</p>
+                        <a href="" class="news__box-link">Подробнее...</a>
+                    </div>
+                    <div class="news__img">
+                        <img src="images/news-2.svg" alt="">
+                    </div>
+                </div>
 
-            <div class="footer__col">
-                <h3 class="footer__col-title">УСЛУГИ</h3>
-                <ul class="footer__list">
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Юридическим лицам</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Физическим лицам</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Финансовым институтам</a> </li>                    
-                </ul>
-            </div>
-
-            <div class="footer__col">
-                <h3 class="footer__col-title">ПРОДУКТЫ</h3>
-                <ul class="footer__list">
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Все</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Частным лицам</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Страхование</a> </li>                    
-                </ul>
-            </div>
-
-            <div class="footer__col">
-                <h3 class="footer__col-title">ОБЪЯВЛЕНИЯ</h3>
-                <ul class="footer__list">
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Партнерам</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Новости</a> </li>
-                    <li class="footer__list--item"> <a href="#" class="footer__list--link">Полезное</a> </li>                    
-                </ul>
-            </div>
-
-        </div>
-        <div class="footer__bottom">
-            <div class="footer__bottom-col-1">
-                <p>ИНФОРМАЦИЯ</p>
-                <p>Информация о лицах, под контролем которых находится банк Центр раскрытия корпоративной информации</p>
-            <p>Информация о максимальных процентных ставках по вкладам физических лиц</p>
-            <p>Раскрытие информации профессиональным участником рынка ценных бумаг</p>
-            <p class="copy">©2020, ОАО «Эсхата Лизинг»</p>
-            </div>
-            <div class="footer__bottom-col-2">
-                <p>Для звонков
-                    по Таджикистану</p>
-            <div class="footer__bottom-icons">
-                <img src="images/icons.png" alt="">
-            </div>        
             </div>
         </div>
-    </div>
-</footer>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <h2 class="partners__title">Новости</h2>
+            <img src="images/partners.png" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <h3 class="footer__col-title">КТО МЫ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">О нас</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Руководство</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Документация</a> </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__col-title">УСЛУГИ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Юридическим лицам</a>
+                        </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Физическим лицам</a>
+                        </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Финансовым институтам</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__col-title">ПРОДУКТЫ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Все</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Частным лицам</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Страхование</a> </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__col-title">ОБЪЯВЛЕНИЯ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Партнерам</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Новости</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Полезное</a> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-col-1">
+                    <p>ИНФОРМАЦИЯ</p>
+                    <p>Информация о лицах, под контролем которых находится банк Центр раскрытия корпоративной информации
+                    </p>
+                    <p>Информация о максимальных процентных ставках по вкладам физических лиц</p>
+                    <p>Раскрытие информации профессиональным участником рынка ценных бумаг</p>
+                    <p class="copy">©2020, ОАО «Эсхата Лизинг»</p>
+                </div>
+                <div class="footer__bottom-col-2">
+                    <p>Для звонков
+                        по Таджикистану</p>
+                    <div class="footer__bottom-icons">
+                        <img src="images/icons.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- <script src="js/libs.min.js"></script>  -->
+    <script src="js/main.js"></script>  
     <script src="js/main.min.js"></script>
+    
 </body>
+
 </html>
