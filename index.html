@@ -1,154 +1,386 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenGarden</title>    
+    <title>Эсхата Лизинг</title>
     <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">    
     <link rel="stylesheet" href="css/style.min.css">    
 </head>
+
 <body>
-<header class="header">
-    <div class="container">
- <div class="header__top">
-     <div class="logo">
-         <img src="images/logo.png" alt="logo">
-     </div>
- 
- <nav class="menu">
-<ul class="menu__list">    
-<li class="menu__list-item"><a href="#" class="menu__list-link">Преимущества</a></li>
-<li class="menu__list-item"><a href="#" class="menu__list-link">Услуги</a></li>
-<li class="menu__list-item"><a href="#" class="menu__list-link">Наши работы</a></li>
-<li class="menu__list-item"><a href="#" class="menu__list-link">Отзывы</a></li>
-<li class="menu__list-item"><a href="#" class="menu__list-link">Контакты</a></li>
-</ul>
- </nav>
- <div class="header__call">  
- <a class="header__phone" href="tel:+78003098880">+7 (800) 309-88-80</a>
- <a href="" class="header__order-call">Заказать звонок</a>
-</div> 
-</div>
-<div class="header__bottom">
-<h1 class="header__title">Сделаем сад вашей мечты
-    из любого участка</h1>
-<p class="header__text">Уникальный и продуманный ландшафт всего за 17 дней</p>
-<div class="header__btn">Оставить заявку</div>    
-<div class="header__info-inner">
-<div class="header__info-item term">
-    <img class="header__info-img" src="images/time-management.svg" alt="time-management">
-    <p class="header__info-text">Соблюдение сроков
-        точно по договору</p>
-</div>
-<div class="header__info-item">
-    <img class="header__info-img" src="images/life-insurance.svg" alt="insurance">
-    <p class="header__info-text">Гарантия на все 
-        виды работ</p>
-</div>
-<div class="header__info-item">
-    <img class="header__info-img" src="images/budget.svg" alt="budget">
-    <p class="header__info-text">Работаем строго
-        в рамках сметы</p>
-</div>
-</div>
-
-</div>
-
-    </div>
-</header>
-<section class="advantages">
-    <div class="container">
-<h2 class="title advantages__title">Наши преимущества</h2>
-<p class="desc advantages__desc">Ежегодно более 20 клиентов выбирают именно нас</p>    
-<div class="advantages__inner">
-    <div class="advantages__item">
-        <div class="advantages__item-img">
-            <img src="images/advantages__item-1.png" alt="" class="advantages-img">
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="menu__btn">
+                    <span></span>
+                </div>
+                <a class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>                
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Частным лицам</a> </li>
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Корпоративным клиентам</a>
+                        </li>
+                        <li class="menu__list-item"> <a href="#" class="menu__list-link">Партнёрам</a> </li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <img src="images/search.png" alt="">
+                </div>
+                <div class="header__lang">
+                    <ul class="header__lang--list">
+                        <li class="header__lang--item"> <a href="#" class="header__lang--link">RU</a> </li>
+                        <li class="header__lang--item"> <a href="#" class="header__lang--link">EN</a> </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-   <h3 class="advantages__item-title">Бесплатный уход 
-    за садом</h3>
-   <p class="advantages__item-text">В течении двух месяцев
-    после работ мы ухаживаем
-    за вашим садом
-    </p>     
-    </div>
-    <div class="advantages__item">
-        <div class="advantages__item-img">
-            <img src="images/advantages__item-2.png" alt="" class="advantages-img">
-        </div>
-   <h3 class="advantages__item-title">Надежные
-    поставщики</h3>
-   <p class="advantages__item-text">Мы работаем с 27
-    поставщиками из России,
-    Европы и США</p>     
-    </div>
-    <div class="advantages__item">
-        <div class="advantages__item-img">
-            <img src="images/advantages__item-3.png" alt="" class="advantages-img">
-        </div>
-   <h3 class="advantages__item-title">Лучшие растения 
-    из питомника</h3>
-   <p class="advantages__item-text">Выращиваем большую часть
-    растений в собственном
-    питомнике</p>     
-    </div>
-    <div class="advantages__item">
-        <div class="advantages__item-img">
-            <img src="images/advantages__item-4.png" alt="" class="advantages-img">
-        </div>
-   <h3 class="advantages__item-title">Уложимся в срок 
-    45 дней</h3>
-   <p class="advantages__item-text">Выполним работу быстро 
-    и качественно 
-    или вернем деньги</p>     
-    </div>
-</div>
-</div>
-</section>
-<section class="portfolio">
-<div class="container">
-<h2 class="title portfolio__title">Посмотрите наши работы</h2>
-<p class="desc portfolio__desc">Более 70 проектов разной сложности</p>  
-<div class="portfolio__gallery">
-<div class="portfolio__gallery-item portfolio__gallery-item-1">
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="900" data-height="1345" href="images/g-1.jpg">    
-    <img src="images/g-1.jpg" alt="thumb"></a>
-</div>
-<div class="portfolio__gallery-item portfolio__gallery-item-2">
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="895" data-height="561" href="images/g-2.jpg">
-<img class="img-b" src="images/g-2.jpg" alt="thumb"></a>
-<div class="portfolio__gallery2-wrapper2">
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="400" data-height="307" href="images/g-3.jpg">
-<img class="img-b img-r" class="g__3-img" src="images/g-3.jpg" alt="thumb"></a>
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="400" data-height="307" href="images/g-4.jpg">
-<img class="img-b" src="images/g-4.jpg" alt="thumb"></a>
-</div>
-<div class="portfolio__gallery3-wrapper3">
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="230" data-height="334" href="images/g-5.jpg">
-<img class="img-r" src="images/g-5.jpg" alt="thumb"></a>
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="445" data-height="343" href="images/g-6.jpg">
-<img class="" src="images/g-6.jpg" alt="thumb"></a>
-</div>
-</div> 
-<div class="portfolio__gallery-item portfolio__gallery-item-3">
-<div class="portfolio__gallery4-wrapper4"> 
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="445" data-height="497" href="images/g-7.jpg">
-<img class="img-b img-r" src="images/g-7.jpg" alt="thumb"></a>
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="384" data-height="597" href="images/g-8.jpg">
-<img class="img-b" src="images/g-8.jpg" alt="thumb"></a>
-</div>
-<a data-fancybox="images" data-animation-effect="zoom-in-out" data-width="849" data-height="637" href="images/g-9.jpg">
-<img class="" src="images/g-9.jpg" alt="thumb"></a>     
-</div> 
-</div> 
-<button class="gallery__btn">Показать ещё</button>
-</div>    
-</section>
+        <nav class="header__bottom">
+            <div class="container">
+                <ul class="menu__bottom">
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">О нас</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Новости</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Полезное</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Контакт</a> </li>
+                    <li class="menu__bottom--item"> <a href="#" class="menu__bottom--link">Ещё</a> </li>
+                </ul>
+            </div>
+        </nav>
 
+        <div class="header__slider">
+            <div class="header__slider-item" style="background-image: url(images/slider-bg.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Здоровые сотрудники -  
+                                основа любого
+                                бизнеса</h3>
+                            <div class="header__slider-desc">
+                                Лучший способ удержать <br>
+                                и привлечь кадры
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
 
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>    
-<script src="js/main.min.js"></script>    
+            <div class="header__slider-item" style="background-image: url(images/slider-bg2.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование от несчастных случаев</h3>
+                            <div class="header__slider-desc">
+                                Страховка <br> для всей семьи
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg3.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Медецинское страхование</h3>
+                            <div class="header__slider-desc">
+                                Программа страхования <br> медицинских расходов
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="header__slider-item" style="background-image: url(images/slider-bg4.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование путешествующих</h3>
+                            <div class="header__slider-desc">
+                                От чего защищает <br> страхование путешествий?
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg5.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование домов и квартир</h3>
+                            <div class="header__slider-desc">
+                                Взлом и кража, пожар или затопление – <br>
+                                обеспечьте Ваше жилье страхованием
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg6.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Страхование ответственности</h3>
+                            <div class="header__slider-desc">
+                                Защита от финансовых потерь при <br>
+
+                                   предъявлении претензий третьих лиц
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="header__slider-item" style="background-image: url(images/slider-bg7.webp);">
+                <div class="header__slider-content">
+                    <div class="container">
+                        <div class="header__slider-info">
+                            <h3 class="header__slider-title">Авто <br> страхование</h3>
+                            <div class="header__slider-desc">
+                                Защита Вас <br> и вашего автомобиля
+                            </div>
+                            <a class="header__slider-btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </header>
+    <section class="insurance">
+        <h2 class="insurance__title">Страховые услуги</h2>
+        <div class="container">            
+           
+              <div class="insurance__inner">
+                <div class="insurance__item" data-aos="zoom-in">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Мобильный банкинг</h3>
+                        <p class="insurance__item-desc">Все сервисы Банк Эсхаты
+                            под рукой
+                        </p>
+                        <a class="insurance__item-btn" href="#">Подробнее</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-1.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item" data-aos="zoom-in">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Банковские карты</h3>
+                        <p class="insurance__item-desc">Локальная карта с кэшбэком до 30% и ежемесячным процентом на
+                            остаток</p>
+                        <a class="insurance__item-btn" href="#">Оформить карту</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-2.webp" alt="">
+                    </div>
+                </div>            
+
+                <div class="insurance__item" data-aos="zoom-in">
+                     <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Товары в кредит</h3>
+                        <p class="insurance__item-desc">Бытовая техника и другие покупки в магазинах наших партнеров</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-3.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item" data-aos="zoom-in">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Кредит на дом</h3>
+                        <p class="insurance__item-desc">Низкие проценты и карта
+                            в подарок</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-4.webp" alt="">
+                    </div>
+                </div>            
+            
+                <div class="insurance__item" data-aos="zoom-in">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Ипотека</h3>
+                        <p class="insurance__item-desc">Наслаждайтесь красивой и комфортной жизнью!</p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-5.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="insurance__item" data-aos="zoom-in">
+                    <div class="insurance__item-box">
+                        <h3 class="insurance__item-title">Депозит</h3>
+                        <p class="insurance__item-desc">Сберегательный счёт в виде копилки, нет ограничений по снятиям
+                        </p>
+                        <a class="insurance__item-btn" href="#">Оформить кредит</a>
+                    </div>
+                    <div class="insurance__img">
+                        <img src="images/item-6.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title">Новости</h2>
+            <div class="news__inner">
+                <div class="news__item" data-aos="fade-up">
+                    <div class="news__box">
+                        <h3 class="news__box-title">Банка Эсхата открыты
+                            для своих клиентов</h3>
+                        <p class="news__box-desc">20 Центров банковского обслуживания
+                            Банка Эсхата открыты для своих клиентов</p>
+                        <a href="" class="news__box-link">Подробнее...</a>
+                    </div>
+                    <div class="news__img">
+                        <img src="images/news-1.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="news__item" data-aos="fade-up">
+                    <div class="news__box">
+                        <h3 class="news__box-title">Банк Эсхата закупил
+                            спецодежду для врачей</h3>
+                        <p class="news__box-desc">«Банк Эсхата» закупил спецодежду
+                            для врачей на 100 000 сомони</p>
+                        <a href="" class="news__box-link">Подробнее...</a>
+                    </div>
+                    <div class="news__img">
+                        <img src="images/news-2.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <h2 class="partners__title">Партнёры</h2>            
+            <div class="partners__slider">
+            <div class="partners__item">
+                <img src="images/p-1.webp" alt="">
+                </div>            
+            <div class="partners__item">
+                <img src="images/p-2.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-3.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-4.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-5.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-6.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-1.webp" alt="">
+                </div>            
+            <div class="partners__item">
+                <img src="images/p-2.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-3.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-4.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-5.webp" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="images/p-6.webp" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__col">
+                    <h3 class="footer__col-title">КТО МЫ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">О нас</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Руководство</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Документация</a> </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__col-title">УСЛУГИ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Юридическим лицам</a>
+                        </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Физическим лицам</a>
+                        </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Финансовым институтам</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3 class="footer__col-title">ПРОДУКТЫ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Все</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Частным лицам</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Страхование</a> </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col footer__col-4">
+                    <h3 class="footer__col-title">ОБЪЯВЛЕНИЯ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Партнерам</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Новости</a> </li>
+                        <li class="footer__list--item"> <a href="#" class="footer__list--link">Полезное</a> </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-col-1">
+                    <p>ИНФОРМАЦИЯ</p>
+                    <p>Информация о лицах, под контролем которых находится банк Центр раскрытия корпоративной информации
+                    </p>
+                    <p>Информация о максимальных процентных ставках по вкладам физических лиц</p>
+                    <p>Раскрытие информации профессиональным участником рынка ценных бумаг</p>
+                    <p class="copy">©2020, ОАО «Эсхата Лизинг»</p>
+                </div>
+                <div class="footer__bottom-col-2">
+                    <p>Для звонков
+                        по Таджикистану</p>
+                    <div class="footer__bottom-icons">
+                        <img src="images/icons.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>     
+    <script src="js/main.min.js"></script>
+    
 </body>
+
 </html>
